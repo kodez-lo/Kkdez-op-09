@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{html{scroll-behavior:smooth}body{@apply font-body text-warmblack dark:text-ivory}h1,h2,h3,h4{@apply font-display}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #C9A227;outline-offset:3px}}
+@layer utilities{.eyebrow{@apply font-body uppercase tracking-widest2 text-xs text-gold-dark dark:text-gold-light}.container-luxe{@apply max-w-[1400px] mx-auto px-6 md:px-12}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}

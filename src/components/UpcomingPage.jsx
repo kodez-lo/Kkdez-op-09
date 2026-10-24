@@ -1,0 +1,2 @@
+import {SITE} from '../data/siteConfig.js'
+export default function UpcomingPage({title,step}){return <section className="container-luxe pt-40 pb-32 min-h-[70vh] flex flex-col items-center text-center"><p className="eyebrow mb-4">{SITE.name}</p><h1 className="font-display text-4xl md:text-5xl text-warmblack dark:text-ivory mb-4">{title}</h1><p className="text-warmblack/60 dark:text-ivory/60 font-body max-w-md">{step}</p></section>}
